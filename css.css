@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Noto+Sans+JP:wght@100&family=Oswald&display=swap');
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    transition: 1s;
+    color: black;
+}
+
+a span{
+    font-size: 35px;
+}
+
+a:hover{
+    transition: 1s;
+    color: red;
+}
+
+.back{
+    text-align: center;
+    padding: 10px;
+}
+
+.back img{
+    border-radius: 100%;
+}
+.imgcont{
+    text-decoration: underline;
+}
+.imgcont:hover{
+    color:red;
+    transition: 700ms;
+}
+
+.main-body{
+    text-align: center;
+    padding: 50px;
+}
+.object{
+    padding: 10px;
+    margin: 5px;
+}
+
+.jollyspaget1, .jollyspaget3{
+    background-image: url(/recipes-img/mil-spaget.jpeg);
+    background-size: 280px;
+    background-repeat: none;
+    background-position: center;
+    height: 18em;
+    width: 300px;
+    background-color: turquoise;
+    border: 2px solid turquoise;
+    border-radius: 25px;
+    box-shadow: 1px 1px 8px turquoise;
+    transition: 1s;
+}
+
+.jollyspaget2 {
+    background-image: url(/recipes-img/dads-gril-chicken.jpeg);
+    background-size: 310px;
+    background-repeat: none;
+    background-position: center;
+    height: 18em;
+    width: 300px;
+    background-color: turquoise;
+    border: 2px solid turquoise;
+    border-radius: 25px;
+    box-shadow: 1px 1px 8px turquoise;
+    transition: 1s;
+}
+
+ .jollyspaget3  {
+    background-image: url(/recipes-img/adobo.png);
+}
+
+.link-effects:hover{
+    width: 310px;
+    height: 325px;
+    background-size: 274px;
+    background-position: center;
+    background-color: turquoise;
+    border: 1px solid #f07f07;
+    border-radius: 25px;
+    box-shadow: 1px 1px 8px red;
+    transition: 300ms;
+}
+
+.dot{
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: 5px;
+    float: right;
+    background-color: turquoise;
+    border: 5px solid #e6e600;
+    border-radius: 25px;
+    box-shadow: 5px 5px 8px turquoise;
+    transition: 2s;
+}
+
+.dot2{
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: 5px;
+    float: left;
+    background-color: turquoise;
+    border: 5px solid #e6e600;
+    border-radius: 25px;
+    box-shadow: 5px 5px 8px turquoise;
+    transition: 2s;
+}
+.dot1-effect:hover, .dot2-effect:hover{
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: 5px;
+    background-color: turquoise;
+    border: 5px solid red;
+    border-radius: 25px;
+    box-shadow: 5px 5px 8px red;
+    transition: 2s;
+}
+
+.nav-good-food{
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-container{
+    background-color: azure;
+    text-align: left;
+}
+
+.content-container{
+    margin-left: 210px;
+    font-family: 'Edu SA Beginner', cursive;
+    padding: 10px;
+    border: 1px solid rgb(127, 127, 127);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.imgcontainer{
+    padding-left: 120px;
+}
+
+.imgcontainer img{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.float-meL{
+    border-radius: 4px;
+    border: 1px solid rgb(127, 127, 127);
+    font-family: 'Edu SA Beginner', cursive;
+    float: left;
+    padding: 10px;
+    height: 500px;
+    width: 180px;
+}
+
+.top-up{
+    margin: 18px;
+    text-align: center;
+}
+
+.top-up a{
+    border: 1px solid black;
+    border-radius: 5;
+    padding: 8px;
+    font-size: small;
+}
+
+.styleme{
+    font-family:'Oswald', sans-serif;
+    font-size: 100px;
+}
+
+.stylestep {
+    font-size:25px;
+    font-weight: bold;
+}
