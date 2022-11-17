@@ -47,12 +47,13 @@ a:hover{
 }
 
 .jollyspaget1, .jollyspaget3{
-    background-image: url(/recipes-img/mil-spaget.jpeg);
+    background-image: url(recipes-img/mil-spaget.jpeg);
     background-size: 280px;
     background-repeat: none;
     background-position: center;
     height: 18em;
     width: 300px;
+    text-align: center;
     background-color: turquoise;
     border: 2px solid turquoise;
     border-radius: 25px;
@@ -61,7 +62,7 @@ a:hover{
 }
 
 .jollyspaget2 {
-    background-image: url(/recipes-img/dads-gril-chicken.jpeg);
+    background-image: url(recipes-img/dads-gril-chicken.jpeg);
     background-size: 310px;
     background-repeat: none;
     background-position: center;
@@ -75,7 +76,7 @@ a:hover{
 }
 
  .jollyspaget3  {
-    background-image: url(/recipes-img/adobo.png);
+    background-image: url(recipes-img/adobo.png);
 }
 
 .link-effects:hover{
